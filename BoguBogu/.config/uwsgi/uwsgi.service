@@ -3,7 +3,7 @@ Description = uWSGI service
 After = syslog.target
 
 [Service]
-ExecStart = /home/ubuntu/myvenv/bin/uwsgi -i /srv/django_aws_test/.config/uwsgi/VowelRecognitionTest.ini
+ExecStart = /path/to/uwsgi -i /path/to/django/project/.config/uwsgi/ProjectName.ini
 
 Restart = always
 KillSignal = SIGQUIT
