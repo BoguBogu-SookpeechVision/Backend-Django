@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+</head>
+<body>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default" value="" upload> save!!</button>
+    </form>
+
+    {% if post %}
+        <img src="{{ post.document.url }}" alt="img">
+        <p>File uploaded at: <a href="{{ post.document.url }}">{{ post.document }}</a></p>
+
+        <p> Vowel: {{ result }}</p>
+    {% endif %}
+
+    <p><a href="{% url 'vowel_recognition' %}">Return home</a></p>
+
+</body>
+</html>
