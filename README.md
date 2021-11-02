@@ -23,8 +23,7 @@
 <img src="https://user-images.githubusercontent.com/81794559/139936495-9c525fe8-56a5-49c8-88b5-4dcb26c0b119.png" width="400">
 
 ### 3. 학습해 보아요, 연습해 보아요의 자음 선택 화면
-<img src="https://user-images.githubusercontent.com/81794559/139937860-706b6c7d-7b9b-44f1-888d-e218f8a285de.png" width="400">
-<img src="https://user-images.githubusercontent.com/81794559/139938115-1c336532-1413-4dd5-b3b6-3ba744cdc210.png" width="400">
+<img src="https://user-images.githubusercontent.com/81794559/139943461-8d243cff-6645-4752-86db-fd93eff98076.png" width="700">
 
 ### 4. 학습해 보아요
 <img src="https://user-images.githubusercontent.com/81794559/139940123-31f4b6d0-f807-4cdf-9217-d2bec865c215.png" width='400'>
